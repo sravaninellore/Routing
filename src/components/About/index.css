@@ -1,0 +1,15 @@
+/* Write your CSS code here */
+.about-text {
+  color: #555555;
+  font-family: 'Roboto';
+  font-size: 19px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .about-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

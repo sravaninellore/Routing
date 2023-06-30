@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.component-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.component-image {
+  width: 170px;
+}
+
+.component-display-text {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-size: 53px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 450px) {
+  .component-image {
+    width: 120px;
+  }
+
+  .component-display-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}

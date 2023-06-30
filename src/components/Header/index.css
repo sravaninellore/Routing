@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+.header-section {
+  display: flex;
+  align-items: center;
+  line-height: 2px;
+}
+
+.header-names {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-left: auto;
+  min-width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wave-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.website-logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-section-text {
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 20px;
+  color: #12022f;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+  .header-names {
+    min-width: 130px;
+  }
+
+  .header-section-text {
+    font-size: 13px;
+  }
+
+  .wave-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+}
