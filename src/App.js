@@ -1,5 +1,3 @@
-// Published URL  ==>  https://samplerouting.ccbp.tech
-
 import {Route, Switch} from 'react-router-dom'
 import About from './components/About'
 import Contact from './components/Contact'
